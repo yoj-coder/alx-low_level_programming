@@ -1,4 +1,11 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Description - Print lowerecase letters
+ *
+ * Return: 0
+ */
 
 int main (void)
 {
@@ -6,6 +13,7 @@ int main (void)
 	
 	while (c <= 'z')
 	putchar (c);
+	c++;
 	putchar ('\n');
 	
 	return (0);

@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description - Commas and spaces using putchar
- * return: 0
+ * Return: 0
  */
 int main(void)
 {

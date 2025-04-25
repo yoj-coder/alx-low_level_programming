@@ -1,8 +1,25 @@
 #include <stdio.h>
+/**
+ * main - Entry
+ * Description - Prints lowercase and upppercase letters
+ * Return: 0
+ */
 
 int main(void)
 {
-	char ch = 'a';
-	char a = 'A';
+	char a = 'a';
+	char b = 'A';
 
-	whi
+	while (a <= 'z')
+	{
+		putchar (a);
+		a++;
+	}
+	while (b <= 'Z')
+	{
+		putchar (b);
+		b++;
+	}
+	putchar ("\n");
+	return (0);
+}
